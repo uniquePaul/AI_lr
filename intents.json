@@ -1,0 +1,164 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "Hey there",
+        "What’s up?",
+        "How’s it going?",
+        "How do you do?",
+        "What’s new?",
+        "How’s everything?",
+        "How are things?",
+        "How’s life?",
+        "How’s your day?",
+        "How’s your day going?",
+        "Good to see you",
+        "Nice to see you",
+        "Long time no see",
+        "Greetings",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! I'm here if you need to talk.",
+        "Hi there! How can I assist you today?",
+        "Good day! What's on your mind right now?",
+        "Hey! Hope you’re having a good day.",  
+        "Hi! How can I help you today?",
+        "Greetings! How can I support you today?",
+        "Good to see you! What can I do for you?",
+        "Howdy! What brings you here today?",
+        "Nice to see you. Is there something I can help with?",
+        "How’s everything going? Anything you want to talk about?",
+        "Hello, my friend! How can I be of service today?",
+        "Good day! I'm here to provide any assistance you may need.",
+        "It's always a pleasure to greet someone. How may I help you?",
+        "Welcome! Feel free to share anything that's on your mind."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "comfort",
+      "patterns": [
+        "I'm feeling sad",
+        "I am not in a good place",
+        "I'm depressed",
+        "I'm feeling down"
+      ],
+      "responses": [
+        "I'm really sorry to hear that. It's okay to feel sad sometimes. Do you want to talk about it?",
+        "It sounds like you're going through a tough time. I'm here for you.",
+        "Feeling down can be a heavy burden. Let's talk it out."
+      ]
+    },
+    {
+      "tag": "encouragement",
+      "patterns": [
+        "I can't do this",
+        "I'm not good enough",
+        "Everything is hard",
+        "I feel like giving up",
+        "I'm stuck and can't see a way out",
+        "I don't think I can go on",
+        "I'm losing hope",
+        "Why bother when everything seems to go wrong?",
+        "I can't see any positives",
+        "I'm too tired to continue",
+        "I don’t believe in myself",
+        "It's just too much for me",
+        "I'm overwhelmed and ready to throw in the towel",
+        "Nothing I do seems to matter"
+      ],
+      "responses": [
+        "You're stronger than you think, and you can handle more than you imagine.",
+        "It's really tough to feel that way, but I believe in you. You are enough, just as you are.",
+        "When things get hard, it's okay to take a step back. Remember, progress isn't always linear.",
+        "Every step you take is progress, even the small ones count. Don’t be too hard on yourself.",
+        "You've overcome challenges before, and I believe you can do it again.",
+        "It's okay to feel this way. What's important is that you're still here, still trying.",
+        "Feeling overwhelmed is a sign you're pushing your limits, and that's where growth happens.",
+        "It's brave to continue when things are tough. Your efforts do matter, even if it doesn't seem like it right now.",
+        "Believing in yourself is hard, but remember, it's okay to have those moments. You're more capable than you realize.",
+        "Take a moment to reflect on how far you've come. It's okay to rest, just don't give up.",
+        "Your feelings are valid. Take it one day at a time, one step at a time.",
+        "Life's challenges are not a reflection of your worth. You're doing the best you can, and that's enough.",
+        "Sometimes the hardest battles lead to the greatest victories. Keep fighting; I'm here cheering you on."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "coping",
+      "patterns": [
+        "How can I cope with stress?",
+        "I need help with anxiety",
+        "What can I do to relax?",
+        "I don't know how to deal with my stress"
+      ],
+      "responses": [
+        "Sometimes deep breathing and a change of scenery can help with stress. Have you tried this?",
+        "Dealing with anxiety can be challenging. Have you considered speaking with a professional about this?",
+        "Finding relaxation can start with a few minutes of meditation or just doing something you enjoy."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "I don't know what to do",
+        "I need someone to talk to"
+      ],
+      "responses": [
+        "I'm here to listen. Tell me what's going on with you.",
+        "I want to support you. Feel free to share your thoughts with me.",
+        "Talking things out can be helpful. What's weighing on you right now?"
+      ]
+    },
+    {
+      "tag": "professional_help",
+      "patterns": [
+        "Should I see a therapist?",
+        "I need professional help",
+        "I think I need to talk to someone",
+        "Is therapy the answer?"
+      ],
+      "responses": [
+        "Seeing a therapist can be a big step towards taking care of yourself. It might be helpful to talk to someone who can provide professional guidance.",
+        "If you're thinking about professional help, that's a very positive step. I can help you look for resources if you'd like.",
+        "Therapy can be a great way to explore your feelings and work on coping strategies with a professional."
+      ]
+    },
+    {
+      "tag": "crisis",
+      "patterns": [
+        "I'm thinking about harming myself",
+        "I don't want to be alive",
+        "I'm considering suicide",
+        "I feel like I might hurt myself"
+      ],
+      "responses": [
+        "It's really important that you reach out to someone who can provide immediate help. Would you like me to find emergency contacts for you?",
+        "I'm very concerned about what you're saying. It’s crucial to talk to someone right now who is trained to help.",
+        "Your life is valuable, and there are people who can help you through this moment. Let me provide you with some emergency contacts."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "I have to go now",
+        "Thank you for your help",
+        "I'll talk to you later"
+      ],
+      "responses": [
+        "Take care and remember I'm here whenever you need me.",
+        "Goodbye! Don't hesitate to return if you feel like talking more.",
+        "You're welcome! I'm always here to support you."
+      ]
+    }
+  ]
+}
